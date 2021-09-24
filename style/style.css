@@ -1,0 +1,57 @@
+
+*{
+    margin: 6px;
+}
+body{
+    margin-top: 10%;
+    margin-bottom: 20%;;
+    align-content: center;
+    background-color: rgb(85, 139, 143);
+    
+}
+#resultadosalida{
+    width: 40%;
+    height: 40%;
+    font: size 100%;
+    background-color: rgb(206, 93, 200);
+}
+
+.formulario{
+    margin-top: 40%;
+    margin-left: 30%;
+    width: 35%;
+    display: table-cell;
+    padding: 10px;
+    background-color: rgb(164, 243, 17);
+    
+}
+
+
+h2{
+    background-color: rgb(41, 62, 179);
+    text-align: center;
+    width: 40%;
+    color:rgb(180, 224, 238);
+    align-content: center;
+    
+}
+h1{
+    text-align: center;
+    background-color: cornsilk;
+    width: 50%;
+    margin-right: 20%;
+    margin-left:20% ;
+}
+#peso,#edad,#altura{
+    text-align: center;
+    margin-left: 20%;
+    width: 60%;
+    height: 100%;
+
+}
+button{
+    width: 60%;
+    margin-left: 20%;
+    background-color: rgb(139, 61, 61);
+    color:floralwhite;
+}

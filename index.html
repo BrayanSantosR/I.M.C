@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="c1">CALCULADORA IMC</h1><br>
+    <div class="contenido">
+        <div class="formulario">
+            
+            <form class="datosEntrada">
+                 <h3>Descubre su indice de masa corporal</h3><br>
+                 <form action="" id=formulario1>
+                    <label>Seleccione su sexo de nacimiento  </label>
+                     <select id="sexo" aria-placeholder="Seleccione" >
+                    <option value="femenino">FEMENINO</option>
+                    <option value="masculino">MASCULINO</option>                                                     
+                    </select><br><br>
+                    <input id="edad" type="number" placeholder="Ingrese su edad en años"><br><br>
+                    
+                    <input id="peso"  type="number" placeholder="Ingrese su peso"><label id="kg">KG</label><br><br>
+                    
+                    <input id="altura"  type="number" placeholder="Ingrese su altura"><label>M</label><br> <br>
+
+                    <button onclick="calcular()" id="calcularimc" type="button">CALCULAR</button><br>
+                    <button onclick="limpiar()" id="impiar" type="button">LIMPIAR</button>
+
+                </form>
+        </div>
+        <div class="formulario">
+            <h2 id="rs">Resultado</h2>
+            <h1 id="resultadosalida"> <span id="salida"></span></h1><br>
+            <div id="chart_div"></div><br>
+            
+            
+            <div id="datosResultado" type="content">
+             <div>PERSONAS CON BAJO PESO: <span id="bajo"></span></div>
+            <div>PERSONAS CON SALUDABLE:  <span id="saludable"></span></div>
+            <div>PERSONAS CON SOBREPESO:  <span id="sobrepeso"></span></div>
+            <div>PEROSONAS OBESAS:        <span id="obeso"></span></div>
+            <div>PERSONAS CON SUPERPESO:  <span id="super"></span></div>
+          </div>
+         </div>
+    </div>
+    </div>
+    
+    <script src="Script/script.js"></script>
+</body>
+</html>
